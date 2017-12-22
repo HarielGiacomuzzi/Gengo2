@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9CC2F1F3D5B74CB65BFE6FD5 /* Pods_Gengo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E1895DB1980FDC7C91A166 /* Pods_Gengo2.framework */; };
 		DBFDB2C01FED7B3F000CE889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDB2BF1FED7B3F000CE889 /* AppDelegate.swift */; };
-		DBFDB2C21FED7B3F000CE889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDB2C11FED7B3F000CE889 /* ViewController.swift */; };
+		DBFDB2C21FED7B3F000CE889 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDB2C11FED7B3F000CE889 /* LoginViewController.swift */; };
 		DBFDB2C51FED7B3F000CE889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFDB2C31FED7B3F000CE889 /* Main.storyboard */; };
 		DBFDB2C81FED7B3F000CE889 /* Gengo2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBFDB2C61FED7B3F000CE889 /* Gengo2.xcdatamodeld */; };
 		DBFDB2CD1FED7B3F000CE889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFDB2CB1FED7B3F000CE889 /* LaunchScreen.storyboard */; };
@@ -71,7 +71,7 @@
 		93FF13EDBDD49B31A15D930A /* Pods-Gengo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gengo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2.debug.xcconfig"; sourceTree = "<group>"; };
 		DBFDB2BC1FED7B3F000CE889 /* Gengo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gengo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFDB2BF1FED7B3F000CE889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBFDB2C11FED7B3F000CE889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBFDB2C11FED7B3F000CE889 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DBFDB2C41FED7B3F000CE889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBFDB2C71FED7B3F000CE889 /* Gengo2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gengo2.xcdatamodel; sourceTree = "<group>"; };
 		DBFDB2CC1FED7B3F000CE889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -126,6 +126,7 @@
 		DBFDB3081FED8755000CE889 /* i.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = i.wav; sourceTree = "<group>"; };
 		DBFDB3091FED8755000CE889 /* ta.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ta.wav; sourceTree = "<group>"; };
 		DBFDB30A1FED8756000CE889 /* tsu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tsu.wav; sourceTree = "<group>"; };
+		DBFDB33C1FED90CD000CE889 /* Very Simple Chalk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Very Simple Chalk.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,15 +179,14 @@
 		DBFDB2BE1FED7B3F000CE889 /* Gengo2 */ = {
 			isa = PBXGroup;
 			children = (
+				DBFDB33D1FED90D1000CE889 /* Config Files */,
 				DBFDB2D81FED8717000CE889 /* Model */,
 				DBFDB2BF1FED7B3F000CE889 /* AppDelegate.swift */,
-				DBFDB2C11FED7B3F000CE889 /* ViewController.swift */,
+				DBFDB2C11FED7B3F000CE889 /* LoginViewController.swift */,
 				DBFDB2C31FED7B3F000CE889 /* Main.storyboard */,
 				DBFDB2D61FED86B6000CE889 /* Assets.xcassets */,
 				DBFDB2CB1FED7B3F000CE889 /* LaunchScreen.storyboard */,
 				DBFDB2CE1FED7B3F000CE889 /* Info.plist */,
-				DBFDB2D41FED7FD5000CE889 /* GoogleService-Info.plist */,
-				DBFDB2C61FED7B3F000CE889 /* Gengo2.xcdatamodeld */,
 			);
 			path = Gengo2;
 			sourceTree = "<group>";
@@ -252,6 +252,16 @@
 				DBFDB2FD1FED8752000CE889 /* yu.wav */,
 			);
 			path = Audio;
+			sourceTree = "<group>";
+		};
+		DBFDB33D1FED90D1000CE889 /* Config Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBFDB2D41FED7FD5000CE889 /* GoogleService-Info.plist */,
+				DBFDB33C1FED90CD000CE889 /* Very Simple Chalk.ttf */,
+				DBFDB2C61FED7B3F000CE889 /* Gengo2.xcdatamodeld */,
+			);
+			path = "Config Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,6 +391,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
@@ -389,6 +400,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
@@ -440,7 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBFDB2C21FED7B3F000CE889 /* ViewController.swift in Sources */,
+				DBFDB2C21FED7B3F000CE889 /* LoginViewController.swift in Sources */,
 				DBFDB2C81FED7B3F000CE889 /* Gengo2.xcdatamodeld in Sources */,
 				DBFDB2C01FED7B3F000CE889 /* AppDelegate.swift in Sources */,
 			);

@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Landscape - Retina" translatesAutoresizingMaskIntoConstraints="NO" id="rDx-I1-snI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Landscape - Retina" translatesAutoresizingMaskIntoConstraints="NO" id="rDx-I1-snI">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rDx-I1-snI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="IGA-Rs-eTa"/>
+                            <constraint firstItem="rDx-I1-snI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MFy-mF-FgF"/>
+                            <constraint firstItem="rDx-I1-snI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hjE-MK-pB4"/>
+                            <constraint firstItem="rDx-I1-snI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mjK-7E-qsb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
