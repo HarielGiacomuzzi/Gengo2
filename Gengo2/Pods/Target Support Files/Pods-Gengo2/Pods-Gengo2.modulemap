@@ -1,0 +1,6 @@
+framework module Pods_Gengo2 {
+  umbrella header "Pods-Gengo2-umbrella.h"
+
+  export *
+  module * { export * }
+}

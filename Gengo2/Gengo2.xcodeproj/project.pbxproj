@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CC2F1F3D5B74CB65BFE6FD5 /* Pods_Gengo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E1895DB1980FDC7C91A166 /* Pods_Gengo2.framework */; };
 		DBFDB2C01FED7B3F000CE889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDB2BF1FED7B3F000CE889 /* AppDelegate.swift */; };
 		DBFDB2C21FED7B3F000CE889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDB2C11FED7B3F000CE889 /* ViewController.swift */; };
 		DBFDB2C51FED7B3F000CE889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFDB2C31FED7B3F000CE889 /* Main.storyboard */; };
 		DBFDB2C81FED7B3F000CE889 /* Gengo2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBFDB2C61FED7B3F000CE889 /* Gengo2.xcdatamodeld */; };
 		DBFDB2CA1FED7B3F000CE889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFDB2C91FED7B3F000CE889 /* Assets.xcassets */; };
 		DBFDB2CD1FED7B3F000CE889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFDB2CB1FED7B3F000CE889 /* LaunchScreen.storyboard */; };
+		DBFDB2D51FED7FD5000CE889 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBFDB2D41FED7FD5000CE889 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		404F5E4A5AAE2E5267EB9FC5 /* Pods-Gengo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gengo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2.release.xcconfig"; sourceTree = "<group>"; };
+		46E1895DB1980FDC7C91A166 /* Pods_Gengo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gengo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FF13EDBDD49B31A15D930A /* Pods-Gengo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gengo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2.debug.xcconfig"; sourceTree = "<group>"; };
 		DBFDB2BC1FED7B3F000CE889 /* Gengo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gengo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFDB2BF1FED7B3F000CE889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBFDB2C11FED7B3F000CE889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		DBFDB2C91FED7B3F000CE889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBFDB2CC1FED7B3F000CE889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBFDB2CE1FED7B3F000CE889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFDB2D41FED7FD5000CE889 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC2F1F3D5B74CB65BFE6FD5 /* Pods_Gengo2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C7634CCB6F5127FB7CBF51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93FF13EDBDD49B31A15D930A /* Pods-Gengo2.debug.xcconfig */,
+				404F5E4A5AAE2E5267EB9FC5 /* Pods-Gengo2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		893F69CEFA90B47CF78E052D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46E1895DB1980FDC7C91A166 /* Pods_Gengo2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DBFDB2B31FED7B3F000CE889 = {
 			isa = PBXGroup;
 			children = (
 				DBFDB2BE1FED7B3F000CE889 /* Gengo2 */,
 				DBFDB2BD1FED7B3F000CE889 /* Products */,
+				26C7634CCB6F5127FB7CBF51 /* Pods */,
+				893F69CEFA90B47CF78E052D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +88,7 @@
 				DBFDB2C91FED7B3F000CE889 /* Assets.xcassets */,
 				DBFDB2CB1FED7B3F000CE889 /* LaunchScreen.storyboard */,
 				DBFDB2CE1FED7B3F000CE889 /* Info.plist */,
+				DBFDB2D41FED7FD5000CE889 /* GoogleService-Info.plist */,
 				DBFDB2C61FED7B3F000CE889 /* Gengo2.xcdatamodeld */,
 			);
 			path = Gengo2;
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFDB2D11FED7B3F000CE889 /* Build configuration list for PBXNativeTarget "Gengo2" */;
 			buildPhases = (
+				F1DA73C2271774183458AA62 /* [CP] Check Pods Manifest.lock */,
 				DBFDB2B81FED7B3F000CE889 /* Sources */,
 				DBFDB2B91FED7B3F000CE889 /* Frameworks */,
 				DBFDB2BA1FED7B3F000CE889 /* Resources */,
+				5C89E264D420B99B73B303BD /* [CP] Embed Pods Frameworks */,
+				F72F88254794D2FAAC0AB489 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,12 +157,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFDB2CD1FED7B3F000CE889 /* LaunchScreen.storyboard in Resources */,
+				DBFDB2D51FED7FD5000CE889 /* GoogleService-Info.plist in Resources */,
 				DBFDB2CA1FED7B3F000CE889 /* Assets.xcassets in Resources */,
 				DBFDB2C51FED7B3F000CE889 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C89E264D420B99B73B303BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1DA73C2271774183458AA62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gengo2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72F88254794D2FAAC0AB489 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DBFDB2B81FED7B3F000CE889 /* Sources */ = {
@@ -276,6 +369,7 @@
 		};
 		DBFDB2D21FED7B3F000CE889 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93FF13EDBDD49B31A15D930A /* Pods-Gengo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +385,7 @@
 		};
 		DBFDB2D31FED7B3F000CE889 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404F5E4A5AAE2E5267EB9FC5 /* Pods-Gengo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
