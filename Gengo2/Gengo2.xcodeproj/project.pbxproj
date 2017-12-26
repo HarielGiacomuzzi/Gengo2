@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9CC2F1F3D5B74CB65BFE6FD5 /* Pods_Gengo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E1895DB1980FDC7C91A166 /* Pods_Gengo2.framework */; };
+		DBDEDCC91FF2D77F009F4E91 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEDCC81FF2D77F009F4E91 /* LessonViewController.swift */; };
+		DBDEDCCB1FF2D86A009F4E91 /* LessonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEDCCA1FF2D86A009F4E91 /* LessonTableViewCell.swift */; };
+		DBDEDCCD1FF2DF38009F4E91 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEDCCC1FF2DF38009F4E91 /* ProfileViewController.swift */; };
+		DBDEDCCF1FF2DF49009F4E91 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEDCCE1FF2DF49009F4E91 /* ProfileTableViewCell.swift */; };
 		DBFDB2C01FED7B3F000CE889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDB2BF1FED7B3F000CE889 /* AppDelegate.swift */; };
 		DBFDB2C21FED7B3F000CE889 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDB2C11FED7B3F000CE889 /* LoginViewController.swift */; };
 		DBFDB2C51FED7B3F000CE889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFDB2C31FED7B3F000CE889 /* Main.storyboard */; };
@@ -69,6 +73,10 @@
 		404F5E4A5AAE2E5267EB9FC5 /* Pods-Gengo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gengo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2.release.xcconfig"; sourceTree = "<group>"; };
 		46E1895DB1980FDC7C91A166 /* Pods_Gengo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gengo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FF13EDBDD49B31A15D930A /* Pods-Gengo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gengo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2.debug.xcconfig"; sourceTree = "<group>"; };
+		DBDEDCC81FF2D77F009F4E91 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
+		DBDEDCCA1FF2D86A009F4E91 /* LessonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTableViewCell.swift; sourceTree = "<group>"; };
+		DBDEDCCC1FF2DF38009F4E91 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DBDEDCCE1FF2DF49009F4E91 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		DBFDB2BC1FED7B3F000CE889 /* Gengo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gengo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFDB2BF1FED7B3F000CE889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBFDB2C11FED7B3F000CE889 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +166,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DBDEDCC71FF2D748009F4E91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBDEDCC81FF2D77F009F4E91 /* LessonViewController.swift */,
+				DBDEDCCC1FF2DF38009F4E91 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		DBFDB2B31FED7B3F000CE889 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +196,7 @@
 		DBFDB2BE1FED7B3F000CE889 /* Gengo2 */ = {
 			isa = PBXGroup;
 			children = (
+				DBDEDCC71FF2D748009F4E91 /* Controllers */,
 				DBFDB33D1FED90D1000CE889 /* Config Files */,
 				DBFDB2D81FED8717000CE889 /* Model */,
 				DBFDB2BF1FED7B3F000CE889 /* AppDelegate.swift */,
@@ -195,6 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				DBFDB33B1FED8764000CE889 /* Audio */,
+				DBDEDCCA1FF2D86A009F4E91 /* LessonTableViewCell.swift */,
+				DBDEDCCE1FF2DF49009F4E91 /* ProfileTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -452,8 +472,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDEDCCD1FF2DF38009F4E91 /* ProfileViewController.swift in Sources */,
+				DBDEDCCF1FF2DF49009F4E91 /* ProfileTableViewCell.swift in Sources */,
+				DBDEDCC91FF2D77F009F4E91 /* LessonViewController.swift in Sources */,
 				DBFDB2C21FED7B3F000CE889 /* LoginViewController.swift in Sources */,
 				DBFDB2C81FED7B3F000CE889 /* Gengo2.xcdatamodeld in Sources */,
+				DBDEDCCB1FF2D86A009F4E91 /* LessonTableViewCell.swift in Sources */,
 				DBFDB2C01FED7B3F000CE889 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
