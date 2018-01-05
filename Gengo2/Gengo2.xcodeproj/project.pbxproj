@@ -12,6 +12,11 @@
 		44B112861FF2E7580038B88F /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B112851FF2E7580038B88F /* TutorialViewController.swift */; };
 		44B112881FF2ED8D0038B88F /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B112871FF2ED8D0038B88F /* DrawViewController.swift */; };
 		9CC2F1F3D5B74CB65BFE6FD5 /* Pods_Gengo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E1895DB1980FDC7C91A166 /* Pods_Gengo2.framework */; };
+		DB4FE51C1FFD506100F802A2 /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4FE51B1FFD506100F802A2 /* Configurations.swift */; };
+		DB4FE51E1FFD533000F802A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4FE51D1FFD533000F802A2 /* User.swift */; };
+		DB4FE5201FFD539D00F802A2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4FE51F1FFD539D00F802A2 /* Item.swift */; };
+		DB4FE5221FFD541600F802A2 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4FE5211FFD541600F802A2 /* Lesson.swift */; };
+		DB4FE5241FFD543D00F802A2 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4FE5231FFD543D00F802A2 /* Puzzle.swift */; };
 		DBDEDCD81FF55A87009F4E91 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEDCD61FF55A86009F4E91 /* ProfileViewController.swift */; };
 		DBDEDCD91FF55A87009F4E91 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEDCD71FF55A86009F4E91 /* LessonViewController.swift */; };
 		DBDEDCDC1FF55A94009F4E91 /* LessonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEDCDA1FF55A94009F4E91 /* LessonTableViewCell.swift */; };
@@ -83,6 +88,11 @@
 		44B112871FF2ED8D0038B88F /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		46E1895DB1980FDC7C91A166 /* Pods_Gengo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gengo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FF13EDBDD49B31A15D930A /* Pods-Gengo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gengo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gengo2/Pods-Gengo2.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4FE51B1FFD506100F802A2 /* Configurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurations.swift; sourceTree = "<group>"; };
+		DB4FE51D1FFD533000F802A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DB4FE51F1FFD539D00F802A2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DB4FE5211FFD541600F802A2 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		DB4FE5231FFD543D00F802A2 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		DBDEDCD61FF55A86009F4E91 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DBDEDCD71FF55A86009F4E91 /* LessonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
 		DBDEDCDA1FF55A94009F4E91 /* LessonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTableViewCell.swift; sourceTree = "<group>"; };
@@ -179,6 +189,7 @@
 				44B112851FF2E7580038B88F /* TutorialViewController.swift */,
 				44B112871FF2ED8D0038B88F /* DrawViewController.swift */,
 				DBDEDCDE1FF55E4C009F4E91 /* StoreViewController.swift */,
+				DBFDB2C11FED7B3F000CE889 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,7 +236,6 @@
 				DBFDB33D1FED90D1000CE889 /* Config Files */,
 				DBFDB2D81FED8717000CE889 /* Model */,
 				DBFDB2BF1FED7B3F000CE889 /* AppDelegate.swift */,
-				DBFDB2C11FED7B3F000CE889 /* LoginViewController.swift */,
 				DBFDB2C31FED7B3F000CE889 /* Main.storyboard */,
 				DBFDB2D61FED86B6000CE889 /* Assets.xcassets */,
 				DBFDB2CB1FED7B3F000CE889 /* LaunchScreen.storyboard */,
@@ -241,6 +251,11 @@
 				DBDEDCDB1FF55A94009F4E91 /* ProfileTableViewCell.swift */,
 				DBFDB33B1FED8764000CE889 /* Audio */,
 				DBDEDCE01FF55E6F009F4E91 /* StoreTableViewCell.swift */,
+				DB4FE51B1FFD506100F802A2 /* Configurations.swift */,
+				DB4FE51D1FFD533000F802A2 /* User.swift */,
+				DB4FE51F1FFD539D00F802A2 /* Item.swift */,
+				DB4FE5211FFD541600F802A2 /* Lesson.swift */,
+				DB4FE5231FFD543D00F802A2 /* Puzzle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -498,17 +513,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4FE51C1FFD506100F802A2 /* Configurations.swift in Sources */,
 				DBDEDCE11FF55E6F009F4E91 /* StoreTableViewCell.swift in Sources */,
 				44B112881FF2ED8D0038B88F /* DrawViewController.swift in Sources */,
 				44B112821FF2E37E0038B88F /* GameViewController.swift in Sources */,
+				DB4FE5201FFD539D00F802A2 /* Item.swift in Sources */,
 				44B112861FF2E7580038B88F /* TutorialViewController.swift in Sources */,
 				DBDEDCDD1FF55A94009F4E91 /* ProfileTableViewCell.swift in Sources */,
 				DBDEDCDC1FF55A94009F4E91 /* LessonTableViewCell.swift in Sources */,
 				DBFDB2C21FED7B3F000CE889 /* LoginViewController.swift in Sources */,
+				DB4FE51E1FFD533000F802A2 /* User.swift in Sources */,
 				DBFDB2C81FED7B3F000CE889 /* Gengo2.xcdatamodeld in Sources */,
 				44B1127F1FF2DE2C0038B88F /* TestViewController.swift in Sources */,
 				DBDEDCDF1FF55E4C009F4E91 /* StoreViewController.swift in Sources */,
+				DB4FE5221FFD541600F802A2 /* Lesson.swift in Sources */,
 				DBDEDCD81FF55A87009F4E91 /* ProfileViewController.swift in Sources */,
+				DB4FE5241FFD543D00F802A2 /* Puzzle.swift in Sources */,
 				DBDEDCD91FF55A87009F4E91 /* LessonViewController.swift in Sources */,
 				DBFDB2C01FED7B3F000CE889 /* AppDelegate.swift in Sources */,
 			);
